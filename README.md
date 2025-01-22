@@ -1,4 +1,12 @@
 # zoom-camp-tasks
+
+### question 1
+### run and create container from python image
+`docker container run -it --name <container name> python:3.12.8`
+#### start shell in the docker container:
+`docker exec -it <container id> /bin/bash`
+`pip --version`
+
 ##setup docker environment
 `docker-compose ud -d`
 
